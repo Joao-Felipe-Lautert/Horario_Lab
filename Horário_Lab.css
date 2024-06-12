@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table {
+    width: 1000px;
+    border-collapse: collapse;
+}
+th { 
+    border: 1px solid black;
+}
+td {
+    border: 1px solid black;
+    padding: 6px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
