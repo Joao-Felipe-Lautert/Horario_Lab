@@ -1,19 +1,40 @@
 body {
+    background-color: #003366;
     font-family: Arial, Helvetica, sans-serif;
 }
 table {
     width: 1000px;
     border-collapse: collapse;
 }
-th { 
+th {
+    padding: 10px;
+    color: #003366;
     border: 1px solid black;
 }
 td {
+    color: #000000;
     border: 1px solid black;
     padding: 6px;
 }
 
 .container {
+    background-color: #fff;
     display: flex;
     justify-content: center;
+    text-align: center;
+}
+h1 {
+    color: #fff;
+    background-color: #003366;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+}
+.title {
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
 }
