@@ -1,5 +1,5 @@
 body {
-    background-color: #003366;
+    background-color: #00558c;
     font-family: Arial, Helvetica, sans-serif;
 }
 table {
@@ -16,7 +16,6 @@ td {
     border: 1px solid black;
     padding: 6px;
 }
-
 .container {
     background-color: #fff;
     display: flex;
@@ -25,7 +24,7 @@ td {
 }
 h1 {
     color: #fff;
-    background-color: #003366;
+    background-color: #00558c;
     border: none;
     border-radius: 20px;
     padding: 20px;
