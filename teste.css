@@ -1,0 +1,93 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #000;
+            color: #fff;
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            background: linear-gradient(135deg, #000, #000);
+        }
+
+        .container {
+            background-color: #1c1c1c;
+            border-radius: 12px;
+            padding: 40px;
+            width: 400px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #00558c; /* Neon Green */
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            font-size: 0.9rem;
+            margin-bottom: 5px;
+            color: #ccc;
+        }
+
+        input[type="text"], input[type="time"] {
+            width: 100%;
+            padding: 12px;
+            font-size: 1rem;
+            border: 1px solid #444;
+            border-radius: 8px;
+            background-color: #333;
+            color: #fff;
+            transition: all 0.3s;
+        }
+
+        input[type="text"]:focus, input[type="time"]:focus {
+            outline: none;
+            border-color: #00558c; /* Neon Green */
+            box-shadow: 0 0 8px rgba(80, 250, 123, 0.8);
+        }
+
+        input[type="submit"] {
+            background-color: #00558c;
+            color: #ccc;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            font-size: 1.1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #00558c;
+        }
+
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 0.8rem;
+            color: #ccc;
+        }
+        .botao{
+            color: #333;
+            background-color: #00558c;
+        }
+        .Corselecao{
+            color: #ccc;
+            background-color: #00558c;
+            padding: 12px;
+            width: 100%;
+            font-size: 1.1rem;
+
+        }
